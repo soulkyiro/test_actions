@@ -5,9 +5,9 @@ on: push
 jobs:
   # ID del job. Cada job se ejecuta en una máquina nueva
   my-job:
-  # Tipo de máquina. Puede ser de Github o un self-hosted runner:
-  # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-githubactions#jobsjob_idruns-on
-  runs-on: ubuntu-latest
-  steps:
-    - name: my-step
-      run: echo "Hello World!"
+    # Tipo de máquina. Puede ser de Github o un self-hosted runner:
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-githubactions#jobsjob_idruns-on
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
